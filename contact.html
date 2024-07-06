@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ========== Start Navbar Section ========== -->
+    <header class="section-navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-content">˚₊· ͟͟͞͞➳❥𝕽𝖎𝖘𝖍𝖆𝖛𝕽𝖆𝖏・❥・</span>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-links" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-links" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ========== End Navbar Section ========== -->
+
+    <!-- ========== Start contact Section ========== -->
+    <div class="section-contact">
+      <div class="container">
+        <h2 class="section-common-heading">Contact Me</h2>
+        <p class="section-common-subheading">
+          <br />Get in touch with me. I am always here to help you.
+        </p>
+      </div>
+      <div class="container grid grid-two--cols">
+        <div class="contact-content">
+          <form action="https://formspree.io/f/xayrlgpk" method="POST">
+            <div class="grid grid-two--cols mb-3">
+              <div>
+                <label for="username">Username</label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  required
+                  autocomplete="off"
+                  placeholder="enter your name"
+                />
+              </div>
+
+              <div>
+                <label for="email"> Enter your email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                  required
+                  placeholder="#Raj_@RishavRaj.com"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="subject">subject</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Your main Title"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="enter your message"
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55086.637696590115!2d76.7968393769081!3d30.35336960825168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fb6482e623f7b%3A0x1814169a97109fae!2sAmbala%20Cantt%2C%20Haryana!5e0!3m2!1sen!2sin!4v1713199651649!5m2!1sen!2sin"
+            width="100%"
+            height="500px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End contact Section ========== -->
+    <!-- ========== Start Footer  Section ========== -->
+    <footer>
+      <div class="container grid"></div>
+    </footer>
+
+    <!-- ========== End Footer  Section ========== -->
+  </body>
+</html>
